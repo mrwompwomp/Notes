@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addNote"
+        android:icon="@drawable/ic_plus_one_black_24dp"
+        android:title="Add Note"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/color1"
+        android:icon="@drawable/ic_brush_black_24dp"
+        android:title="Seafoam"
+        app:showAsAction="never"
+         />
+    <item
+        android:id="@+id/color2"
+        android:icon="@drawable/ic_brush_black_24dp_2"
+        android:title="Magenta"
+        app:showAsAction="never"
+         />
+    <item
+        android:id="@+id/color3"
+        android:icon="@drawable/ic_brush_black_24dp_3"
+        android:title="Teal"
+        app:showAsAction="never"
+         />
+</menu>
